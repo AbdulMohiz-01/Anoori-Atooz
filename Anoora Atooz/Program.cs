@@ -30,5 +30,11 @@ namespace Anoora_Atooz
         {
             Console.WriteLine("Hello");
         }
+
+        private static void PrintHello1()
+        {
+            Console.WriteLine("Kaday bich poae");
+        }
+
     }
 }
