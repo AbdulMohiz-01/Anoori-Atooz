@@ -31,3 +31,20 @@ C:\Users\talal\Source\Repos\Anoori-Atooz\Anoora Atooz\obj\Debug\net6.0-windows\r
 C:\Users\talal\Source\Repos\Anoori-Atooz\Anoora Atooz\obj\Debug\net6.0-windows\Anoora Atooz.pdb
 C:\Users\talal\Source\Repos\Anoori-Atooz\Anoora Atooz\obj\Debug\net6.0-windows\Anoora Atooz.genruntimeconfig.cache
 C:\Users\talal\Source\Repos\Anoori-Atooz\Anoora Atooz\obj\Debug\net6.0-windows\ref\Anoora Atooz.dll
+C:\Work\Anoora Atooz\bin\Debug\net6.0-windows\Anoora Atooz.exe
+C:\Work\Anoora Atooz\bin\Debug\net6.0-windows\Anoora Atooz.deps.json
+C:\Work\Anoora Atooz\bin\Debug\net6.0-windows\Anoora Atooz.runtimeconfig.json
+C:\Work\Anoora Atooz\bin\Debug\net6.0-windows\Anoora Atooz.dll
+C:\Work\Anoora Atooz\bin\Debug\net6.0-windows\Anoora Atooz.pdb
+C:\Work\Anoora Atooz\obj\Debug\net6.0-windows\Anoora Atooz.csproj.AssemblyReference.cache
+C:\Work\Anoora Atooz\obj\Debug\net6.0-windows\Anoora_Atooz.Form1.resources
+C:\Work\Anoora Atooz\obj\Debug\net6.0-windows\Anoora Atooz.csproj.GenerateResource.cache
+C:\Work\Anoora Atooz\obj\Debug\net6.0-windows\Anoora Atooz.GeneratedMSBuildEditorConfig.editorconfig
+C:\Work\Anoora Atooz\obj\Debug\net6.0-windows\Anoora Atooz.AssemblyInfoInputs.cache
+C:\Work\Anoora Atooz\obj\Debug\net6.0-windows\Anoora Atooz.AssemblyInfo.cs
+C:\Work\Anoora Atooz\obj\Debug\net6.0-windows\Anoora Atooz.csproj.CoreCompileInputs.cache
+C:\Work\Anoora Atooz\obj\Debug\net6.0-windows\Anoora Atooz.dll
+C:\Work\Anoora Atooz\obj\Debug\net6.0-windows\refint\Anoora Atooz.dll
+C:\Work\Anoora Atooz\obj\Debug\net6.0-windows\Anoora Atooz.pdb
+C:\Work\Anoora Atooz\obj\Debug\net6.0-windows\Anoora Atooz.genruntimeconfig.cache
+C:\Work\Anoora Atooz\obj\Debug\net6.0-windows\ref\Anoora Atooz.dll
