@@ -16,11 +16,8 @@ namespace Anoora_Atooz
         }
         public static void Main(string[] args) {
 
-<<<<<<< HEAD
-
-=======
             Console.WriteLine("HHHHHHHHHHH");
         }
->>>>>>> Talal
+
     }
 }
