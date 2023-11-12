@@ -14,9 +14,6 @@ namespace Anoora_Atooz
             Application.Run(new Form1());
 
         }
-        public static void Main(string[] args) {
 
-            Console.WriteLine("HHHHHHHHHHH");
-        }
     }
 }
