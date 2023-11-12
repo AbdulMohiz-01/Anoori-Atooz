@@ -24,5 +24,11 @@ namespace Anoora_Atooz
         {
             MessageBox.Show((e.ExceptionObject as Exception).Message, "Unhandled UI Exception");
         }
+
+        // function to print hello
+        private static void PrintHello()
+        {
+            Console.WriteLine("Hello");
+        }
     }
 }
