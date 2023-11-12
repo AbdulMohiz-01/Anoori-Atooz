@@ -12,8 +12,8 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\talal\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\talal\\.nuget\\packages",
+      "C:\\Users\\gamin\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\gamin\\.nuget\\packages",
       "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
     ],
     "configProperties": {

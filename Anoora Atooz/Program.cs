@@ -19,5 +19,10 @@ namespace Anoora_Atooz
         {
             MessageBox.Show(e.Exception.Message, "Unhandled Thread Exception");
         }
+        // function to handle UI thread exceptions
+        private static void CurrentDomain_UnhandledException(object sender, UnhandledExceptionEventArgs e)
+        {
+            MessageBox.Show((e.ExceptionObject as Exception).Message, "Unhandled UI Exception");
+        }
     }
 }

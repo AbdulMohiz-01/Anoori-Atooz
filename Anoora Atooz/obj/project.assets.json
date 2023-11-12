@@ -8,23 +8,23 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\talal\\.nuget\\packages\\": {},
+    "C:\\Users\\gamin\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\talal\\Source\\Repos\\Anoori-Atooz\\Anoora Atooz\\Anoora Atooz.csproj",
+      "projectUniqueName": "C:\\Users\\gamin\\Source\\Repos\\Anoori-Atooz-deleteme\\Anoora Atooz\\Anoora Atooz.csproj",
       "projectName": "Anoora Atooz",
-      "projectPath": "C:\\Users\\talal\\Source\\Repos\\Anoori-Atooz\\Anoora Atooz\\Anoora Atooz.csproj",
-      "packagesPath": "C:\\Users\\talal\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\talal\\Source\\Repos\\Anoori-Atooz\\Anoora Atooz\\obj\\",
+      "projectPath": "C:\\Users\\gamin\\Source\\Repos\\Anoori-Atooz-deleteme\\Anoora Atooz\\Anoora Atooz.csproj",
+      "packagesPath": "C:\\Users\\gamin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\gamin\\Source\\Repos\\Anoori-Atooz-deleteme\\Anoora Atooz\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\talal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\gamin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -32,6 +32,7 @@
         "net6.0-windows"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -68,7 +69,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }
