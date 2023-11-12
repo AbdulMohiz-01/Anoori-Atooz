@@ -14,3 +14,20 @@ C:\Users\gamin\source\repos\Anoora Atooz\Anoora Atooz\obj\Debug\net6.0-windows\r
 C:\Users\gamin\source\repos\Anoora Atooz\Anoora Atooz\obj\Debug\net6.0-windows\Anoora Atooz.pdb
 C:\Users\gamin\source\repos\Anoora Atooz\Anoora Atooz\obj\Debug\net6.0-windows\Anoora Atooz.genruntimeconfig.cache
 C:\Users\gamin\source\repos\Anoora Atooz\Anoora Atooz\obj\Debug\net6.0-windows\ref\Anoora Atooz.dll
+C:\Users\talal\Source\Repos\Anoori-Atooz\Anoora Atooz\bin\Debug\net6.0-windows\Anoora Atooz.exe
+C:\Users\talal\Source\Repos\Anoori-Atooz\Anoora Atooz\bin\Debug\net6.0-windows\Anoora Atooz.deps.json
+C:\Users\talal\Source\Repos\Anoori-Atooz\Anoora Atooz\bin\Debug\net6.0-windows\Anoora Atooz.runtimeconfig.json
+C:\Users\talal\Source\Repos\Anoori-Atooz\Anoora Atooz\bin\Debug\net6.0-windows\Anoora Atooz.dll
+C:\Users\talal\Source\Repos\Anoori-Atooz\Anoora Atooz\bin\Debug\net6.0-windows\Anoora Atooz.pdb
+C:\Users\talal\Source\Repos\Anoori-Atooz\Anoora Atooz\obj\Debug\net6.0-windows\Anoora Atooz.csproj.AssemblyReference.cache
+C:\Users\talal\Source\Repos\Anoori-Atooz\Anoora Atooz\obj\Debug\net6.0-windows\Anoora_Atooz.Form1.resources
+C:\Users\talal\Source\Repos\Anoori-Atooz\Anoora Atooz\obj\Debug\net6.0-windows\Anoora Atooz.csproj.GenerateResource.cache
+C:\Users\talal\Source\Repos\Anoori-Atooz\Anoora Atooz\obj\Debug\net6.0-windows\Anoora Atooz.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\talal\Source\Repos\Anoori-Atooz\Anoora Atooz\obj\Debug\net6.0-windows\Anoora Atooz.AssemblyInfoInputs.cache
+C:\Users\talal\Source\Repos\Anoori-Atooz\Anoora Atooz\obj\Debug\net6.0-windows\Anoora Atooz.AssemblyInfo.cs
+C:\Users\talal\Source\Repos\Anoori-Atooz\Anoora Atooz\obj\Debug\net6.0-windows\Anoora Atooz.csproj.CoreCompileInputs.cache
+C:\Users\talal\Source\Repos\Anoori-Atooz\Anoora Atooz\obj\Debug\net6.0-windows\Anoora Atooz.dll
+C:\Users\talal\Source\Repos\Anoori-Atooz\Anoora Atooz\obj\Debug\net6.0-windows\refint\Anoora Atooz.dll
+C:\Users\talal\Source\Repos\Anoori-Atooz\Anoora Atooz\obj\Debug\net6.0-windows\Anoora Atooz.pdb
+C:\Users\talal\Source\Repos\Anoori-Atooz\Anoora Atooz\obj\Debug\net6.0-windows\Anoora Atooz.genruntimeconfig.cache
+C:\Users\talal\Source\Repos\Anoori-Atooz\Anoora Atooz\obj\Debug\net6.0-windows\ref\Anoora Atooz.dll
