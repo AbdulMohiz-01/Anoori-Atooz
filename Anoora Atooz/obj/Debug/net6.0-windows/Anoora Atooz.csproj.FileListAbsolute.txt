@@ -1,0 +1,16 @@
+C:\Users\gamin\source\repos\Anoora Atooz\Anoora Atooz\bin\Debug\net6.0-windows\Anoora Atooz.exe
+C:\Users\gamin\source\repos\Anoora Atooz\Anoora Atooz\bin\Debug\net6.0-windows\Anoora Atooz.deps.json
+C:\Users\gamin\source\repos\Anoora Atooz\Anoora Atooz\bin\Debug\net6.0-windows\Anoora Atooz.runtimeconfig.json
+C:\Users\gamin\source\repos\Anoora Atooz\Anoora Atooz\bin\Debug\net6.0-windows\Anoora Atooz.dll
+C:\Users\gamin\source\repos\Anoora Atooz\Anoora Atooz\bin\Debug\net6.0-windows\Anoora Atooz.pdb
+C:\Users\gamin\source\repos\Anoora Atooz\Anoora Atooz\obj\Debug\net6.0-windows\Anoora_Atooz.Form1.resources
+C:\Users\gamin\source\repos\Anoora Atooz\Anoora Atooz\obj\Debug\net6.0-windows\Anoora Atooz.csproj.GenerateResource.cache
+C:\Users\gamin\source\repos\Anoora Atooz\Anoora Atooz\obj\Debug\net6.0-windows\Anoora Atooz.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gamin\source\repos\Anoora Atooz\Anoora Atooz\obj\Debug\net6.0-windows\Anoora Atooz.AssemblyInfoInputs.cache
+C:\Users\gamin\source\repos\Anoora Atooz\Anoora Atooz\obj\Debug\net6.0-windows\Anoora Atooz.AssemblyInfo.cs
+C:\Users\gamin\source\repos\Anoora Atooz\Anoora Atooz\obj\Debug\net6.0-windows\Anoora Atooz.csproj.CoreCompileInputs.cache
+C:\Users\gamin\source\repos\Anoora Atooz\Anoora Atooz\obj\Debug\net6.0-windows\Anoora Atooz.dll
+C:\Users\gamin\source\repos\Anoora Atooz\Anoora Atooz\obj\Debug\net6.0-windows\refint\Anoora Atooz.dll
+C:\Users\gamin\source\repos\Anoora Atooz\Anoora Atooz\obj\Debug\net6.0-windows\Anoora Atooz.pdb
+C:\Users\gamin\source\repos\Anoora Atooz\Anoora Atooz\obj\Debug\net6.0-windows\Anoora Atooz.genruntimeconfig.cache
+C:\Users\gamin\source\repos\Anoora Atooz\Anoora Atooz\obj\Debug\net6.0-windows\ref\Anoora Atooz.dll
