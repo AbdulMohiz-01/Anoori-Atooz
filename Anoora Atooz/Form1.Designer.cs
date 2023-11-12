@@ -46,10 +46,10 @@
             button2 = new Button();
             button1 = new Button();
             panel3 = new Panel();
-            button13 = new Button();
-            button14 = new Button();
-            button15 = new Button();
             button16 = new Button();
+            button15 = new Button();
+            button14 = new Button();
+            button13 = new Button();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             panel3.SuspendLayout();
@@ -211,14 +211,24 @@
             panel3.Size = new Size(1505, 126);
             panel3.TabIndex = 16;
             // 
-            // button13
+            // button16
             // 
-            button13.Location = new Point(26, 20);
-            button13.Name = "button13";
-            button13.Size = new Size(165, 71);
-            button13.TabIndex = 37;
-            button13.Text = "button13";
-            button13.UseVisualStyleBackColor = true;
+            button16.Location = new Point(1157, 20);
+            button16.Name = "button16";
+            button16.Size = new Size(165, 71);
+            button16.TabIndex = 40;
+            button16.Text = "invoice";
+            button16.UseVisualStyleBackColor = true;
+            button16.Click += button16_Click;
+            // 
+            // button15
+            // 
+            button15.Location = new Point(790, 20);
+            button15.Name = "button15";
+            button15.Size = new Size(165, 71);
+            button15.TabIndex = 39;
+            button15.Text = "history";
+            button15.UseVisualStyleBackColor = true;
             // 
             // button14
             // 
@@ -229,24 +239,14 @@
             button14.Text = "button14";
             button14.UseVisualStyleBackColor = true;
             // 
-            // button15
+            // button13
             // 
-            button15.Location = new Point(790, 20);
-            button15.Name = "button15";
-            button15.Size = new Size(165, 71);
-            button15.TabIndex = 39;
-            button15.Text = "button15";
-            button15.UseVisualStyleBackColor = true;
-            // 
-            // button16
-            // 
-            button16.Location = new Point(1157, 20);
-            button16.Name = "button16";
-            button16.Size = new Size(165, 71);
-            button16.TabIndex = 40;
-            button16.Text = "button16";
-            button16.UseVisualStyleBackColor = true;
-            button16.Click += button16_Click;
+            button13.Location = new Point(26, 20);
+            button13.Name = "button13";
+            button13.Size = new Size(165, 71);
+            button13.TabIndex = 37;
+            button13.Text = "button13";
+            button13.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
