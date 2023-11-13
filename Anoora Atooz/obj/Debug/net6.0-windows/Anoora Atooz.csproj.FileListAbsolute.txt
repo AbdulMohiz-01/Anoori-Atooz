@@ -48,3 +48,19 @@ C:\Work\Anoora Atooz\obj\Debug\net6.0-windows\refint\Anoora Atooz.dll
 C:\Work\Anoora Atooz\obj\Debug\net6.0-windows\Anoora Atooz.pdb
 C:\Work\Anoora Atooz\obj\Debug\net6.0-windows\Anoora Atooz.genruntimeconfig.cache
 C:\Work\Anoora Atooz\obj\Debug\net6.0-windows\ref\Anoora Atooz.dll
+C:\Users\mehmood\source\repos\Anoori-Atooz\Anoora Atooz\bin\Debug\net6.0-windows\Anoora Atooz.exe
+C:\Users\mehmood\source\repos\Anoori-Atooz\Anoora Atooz\bin\Debug\net6.0-windows\Anoora Atooz.deps.json
+C:\Users\mehmood\source\repos\Anoori-Atooz\Anoora Atooz\bin\Debug\net6.0-windows\Anoora Atooz.runtimeconfig.json
+C:\Users\mehmood\source\repos\Anoori-Atooz\Anoora Atooz\bin\Debug\net6.0-windows\Anoora Atooz.dll
+C:\Users\mehmood\source\repos\Anoori-Atooz\Anoora Atooz\bin\Debug\net6.0-windows\Anoora Atooz.pdb
+C:\Users\mehmood\source\repos\Anoori-Atooz\Anoora Atooz\obj\Debug\net6.0-windows\Anoora_Atooz.Home.resources
+C:\Users\mehmood\source\repos\Anoori-Atooz\Anoora Atooz\obj\Debug\net6.0-windows\Anoora Atooz.csproj.GenerateResource.cache
+C:\Users\mehmood\source\repos\Anoori-Atooz\Anoora Atooz\obj\Debug\net6.0-windows\Anoora Atooz.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mehmood\source\repos\Anoori-Atooz\Anoora Atooz\obj\Debug\net6.0-windows\Anoora Atooz.AssemblyInfoInputs.cache
+C:\Users\mehmood\source\repos\Anoori-Atooz\Anoora Atooz\obj\Debug\net6.0-windows\Anoora Atooz.AssemblyInfo.cs
+C:\Users\mehmood\source\repos\Anoori-Atooz\Anoora Atooz\obj\Debug\net6.0-windows\Anoora Atooz.csproj.CoreCompileInputs.cache
+C:\Users\mehmood\source\repos\Anoori-Atooz\Anoora Atooz\obj\Debug\net6.0-windows\Anoora Atooz.dll
+C:\Users\mehmood\source\repos\Anoori-Atooz\Anoora Atooz\obj\Debug\net6.0-windows\refint\Anoora Atooz.dll
+C:\Users\mehmood\source\repos\Anoori-Atooz\Anoora Atooz\obj\Debug\net6.0-windows\Anoora Atooz.pdb
+C:\Users\mehmood\source\repos\Anoori-Atooz\Anoora Atooz\obj\Debug\net6.0-windows\Anoora Atooz.genruntimeconfig.cache
+C:\Users\mehmood\source\repos\Anoori-Atooz\Anoora Atooz\obj\Debug\net6.0-windows\ref\Anoora Atooz.dll

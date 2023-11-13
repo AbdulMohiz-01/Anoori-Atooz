@@ -1,8 +1,8 @@
 namespace Anoora_Atooz
 {
-    public partial class Form1 : Form
+    public partial class Home : Form
     {
-        public Form1()
+        public Home()
         {
             InitializeComponent();
         }
@@ -13,6 +13,11 @@ namespace Anoora_Atooz
         }
 
         private void button16_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonProdcuts_Click(object sender, EventArgs e)
         {
 
         }
