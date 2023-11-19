@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "4bJd8mWF9J+e/UzHoQQcQaniE2ComU2gQ+WDdz4aCY8iWqbTqyyBGkN0FmAT3lfxRHz8c2qCIS176bqY4ubocQ==",
+  "dgSpecHash": "6H/m/1Ek1yjsvOL0pCHGhZgk7IQKWDxc0cIJBzgi6wzTtWKN8vPjF6NDdDZ+CEA+iH7eURTobvYpSR6SMMeFqg==",
   "success": true,
-  "projectFilePath": "C:\\WORK\\Anoora Atooz\\Anoora Atooz.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Work\\Anoora Atooz\\Anoora Atooz.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\talal\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\talal\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\talal\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\talal\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.25\\microsoft.netcore.app.host.win-x64.6.0.25.nupkg.sha512"
+  ],
   "logs": []
 }

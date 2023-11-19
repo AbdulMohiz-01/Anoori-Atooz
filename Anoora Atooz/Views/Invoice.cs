@@ -10,14 +10,19 @@ using System.Windows.Forms;
 
 namespace Anoora_Atooz.Views
 {
-    public partial class Product : Form
+    public partial class Invoice : Form
     {
-        public Product()
+        public Invoice()
         {
             InitializeComponent();
         }
 
         private void panelMiddle_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void labelDate_Click(object sender, EventArgs e)
         {
 
         }

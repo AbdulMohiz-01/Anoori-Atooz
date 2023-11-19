@@ -30,181 +30,178 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.panelTop = new System.Windows.Forms.Panel();
-            this.btnInvoice = new CustomControls.RJControls.RJButton();
-            this.btnHistory = new CustomControls.RJControls.RJButton();
-            this.btnProduct = new CustomControls.RJControls.RJButton();
-            this.btnCompany = new CustomControls.RJControls.RJButton();
-            this.btnHome = new CustomControls.RJControls.RJButton();
-            this.panelSearch = new System.Windows.Forms.Panel();
-            this.labelSearch = new System.Windows.Forms.Label();
-            this.textBoxSearch = new System.Windows.Forms.TextBox();
-            this.panelTop.SuspendLayout();
-            this.panelSearch.SuspendLayout();
-            this.SuspendLayout();
+            panelTop = new Panel();
+            btnInvoice = new CustomControls.RJControls.RJButton();
+            btnHistory = new CustomControls.RJControls.RJButton();
+            btnProduct = new CustomControls.RJControls.RJButton();
+            btnCompany = new CustomControls.RJControls.RJButton();
+            btnHome = new CustomControls.RJControls.RJButton();
+            panelSearch = new Panel();
+            labelSearch = new Label();
+            textBoxSearch = new TextBox();
+            panelTop.SuspendLayout();
+            panelSearch.SuspendLayout();
+            SuspendLayout();
             // 
             // panelTop
             // 
-            this.panelTop.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.panelTop.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(9)))), ((int)(((byte)(12)))));
-            this.panelTop.Controls.Add(this.btnInvoice);
-            this.panelTop.Controls.Add(this.btnHistory);
-            this.panelTop.Controls.Add(this.btnProduct);
-            this.panelTop.Controls.Add(this.btnCompany);
-            this.panelTop.Controls.Add(this.btnHome);
-            this.panelTop.Location = new System.Drawing.Point(0, 0);
-            this.panelTop.Name = "panelTop";
-            this.panelTop.Size = new System.Drawing.Size(1529, 126);
-            this.panelTop.TabIndex = 16;
+            panelTop.Anchor = AnchorStyles.Top;
+            panelTop.BackColor = Color.FromArgb(10, 9, 12);
+            panelTop.Controls.Add(btnInvoice);
+            panelTop.Controls.Add(btnHistory);
+            panelTop.Controls.Add(btnProduct);
+            panelTop.Controls.Add(btnCompany);
+            panelTop.Controls.Add(btnHome);
+            panelTop.Location = new Point(0, 0);
+            panelTop.Name = "panelTop";
+            panelTop.Size = new Size(1529, 126);
+            panelTop.TabIndex = 16;
             // 
             // btnInvoice
             // 
-            this.btnInvoice.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(57)))), ((int)(((byte)(60)))));
-            this.btnInvoice.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(57)))), ((int)(((byte)(60)))));
-            this.btnInvoice.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(102)))), ((int)(((byte)(110)))));
-            this.btnInvoice.BorderRadius = 10;
-            this.btnInvoice.BorderSize = 2;
-            this.btnInvoice.FlatAppearance.BorderSize = 0;
-            this.btnInvoice.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnInvoice.Font = new System.Drawing.Font("Tahoma", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnInvoice.ForeColor = System.Drawing.Color.White;
-            this.btnInvoice.Location = new System.Drawing.Point(1288, 26);
-            this.btnInvoice.Name = "btnInvoice";
-            this.btnInvoice.Size = new System.Drawing.Size(189, 74);
-            this.btnInvoice.TabIndex = 21;
-            this.btnInvoice.Text = "Slip";
-            this.btnInvoice.TextColor = System.Drawing.Color.White;
-            this.btnInvoice.UseVisualStyleBackColor = false;
+            btnInvoice.BackColor = Color.FromArgb(7, 57, 60);
+            btnInvoice.BackgroundColor = Color.FromArgb(7, 57, 60);
+            btnInvoice.BorderColor = Color.FromArgb(44, 102, 110);
+            btnInvoice.BorderRadius = 10;
+            btnInvoice.BorderSize = 2;
+            btnInvoice.FlatAppearance.BorderSize = 0;
+            btnInvoice.FlatStyle = FlatStyle.Flat;
+            btnInvoice.Font = new Font("Tahoma", 20F, FontStyle.Regular, GraphicsUnit.Point);
+            btnInvoice.ForeColor = Color.White;
+            btnInvoice.Location = new Point(1288, 26);
+            btnInvoice.Name = "btnInvoice";
+            btnInvoice.Size = new Size(189, 74);
+            btnInvoice.TabIndex = 21;
+            btnInvoice.Text = "Slip";
+            btnInvoice.TextColor = Color.White;
+            btnInvoice.UseVisualStyleBackColor = false;
             // 
             // btnHistory
             // 
-            this.btnHistory.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(57)))), ((int)(((byte)(60)))));
-            this.btnHistory.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(57)))), ((int)(((byte)(60)))));
-            this.btnHistory.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(102)))), ((int)(((byte)(110)))));
-            this.btnHistory.BorderRadius = 10;
-            this.btnHistory.BorderSize = 2;
-            this.btnHistory.FlatAppearance.BorderSize = 0;
-            this.btnHistory.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnHistory.Font = new System.Drawing.Font("Tahoma", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnHistory.ForeColor = System.Drawing.Color.White;
-            this.btnHistory.Location = new System.Drawing.Point(966, 26);
-            this.btnHistory.Name = "btnHistory";
-            this.btnHistory.Size = new System.Drawing.Size(189, 74);
-            this.btnHistory.TabIndex = 20;
-            this.btnHistory.Text = "Hisab Kitab";
-            this.btnHistory.TextColor = System.Drawing.Color.White;
-            this.btnHistory.UseVisualStyleBackColor = false;
+            btnHistory.BackColor = Color.FromArgb(7, 57, 60);
+            btnHistory.BackgroundColor = Color.FromArgb(7, 57, 60);
+            btnHistory.BorderColor = Color.FromArgb(44, 102, 110);
+            btnHistory.BorderRadius = 10;
+            btnHistory.BorderSize = 2;
+            btnHistory.FlatAppearance.BorderSize = 0;
+            btnHistory.FlatStyle = FlatStyle.Flat;
+            btnHistory.Font = new Font("Tahoma", 20F, FontStyle.Regular, GraphicsUnit.Point);
+            btnHistory.ForeColor = Color.White;
+            btnHistory.Location = new Point(966, 26);
+            btnHistory.Name = "btnHistory";
+            btnHistory.Size = new Size(189, 74);
+            btnHistory.TabIndex = 20;
+            btnHistory.Text = "Hisab Kitab";
+            btnHistory.TextColor = Color.White;
+            btnHistory.UseVisualStyleBackColor = false;
             // 
             // btnProduct
             // 
-            this.btnProduct.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(57)))), ((int)(((byte)(60)))));
-            this.btnProduct.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(57)))), ((int)(((byte)(60)))));
-            this.btnProduct.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(102)))), ((int)(((byte)(110)))));
-            this.btnProduct.BorderRadius = 10;
-            this.btnProduct.BorderSize = 2;
-            this.btnProduct.FlatAppearance.BorderSize = 0;
-            this.btnProduct.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnProduct.Font = new System.Drawing.Font("Tahoma", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnProduct.ForeColor = System.Drawing.Color.White;
-            this.btnProduct.Location = new System.Drawing.Point(639, 26);
-            this.btnProduct.Name = "btnProduct";
-            this.btnProduct.Size = new System.Drawing.Size(189, 74);
-            this.btnProduct.TabIndex = 19;
-            this.btnProduct.Text = "Samaan";
-            this.btnProduct.TextColor = System.Drawing.Color.White;
-            this.btnProduct.UseVisualStyleBackColor = false;
+            btnProduct.BackColor = Color.FromArgb(7, 57, 60);
+            btnProduct.BackgroundColor = Color.FromArgb(7, 57, 60);
+            btnProduct.BorderColor = Color.FromArgb(44, 102, 110);
+            btnProduct.BorderRadius = 10;
+            btnProduct.BorderSize = 2;
+            btnProduct.FlatAppearance.BorderSize = 0;
+            btnProduct.FlatStyle = FlatStyle.Flat;
+            btnProduct.Font = new Font("Tahoma", 20F, FontStyle.Regular, GraphicsUnit.Point);
+            btnProduct.ForeColor = Color.White;
+            btnProduct.Location = new Point(639, 26);
+            btnProduct.Name = "btnProduct";
+            btnProduct.Size = new Size(189, 74);
+            btnProduct.TabIndex = 19;
+            btnProduct.Text = "Samaan";
+            btnProduct.TextColor = Color.White;
+            btnProduct.UseVisualStyleBackColor = false;
             // 
             // btnCompany
             // 
-            this.btnCompany.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(57)))), ((int)(((byte)(60)))));
-            this.btnCompany.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(57)))), ((int)(((byte)(60)))));
-            this.btnCompany.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(102)))), ((int)(((byte)(110)))));
-            this.btnCompany.BorderRadius = 10;
-            this.btnCompany.BorderSize = 2;
-            this.btnCompany.FlatAppearance.BorderSize = 0;
-            this.btnCompany.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCompany.Font = new System.Drawing.Font("Tahoma", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnCompany.ForeColor = System.Drawing.Color.White;
-            this.btnCompany.Location = new System.Drawing.Point(317, 26);
-            this.btnCompany.Name = "btnCompany";
-            this.btnCompany.Size = new System.Drawing.Size(189, 74);
-            this.btnCompany.TabIndex = 18;
-            this.btnCompany.Text = "Company";
-            this.btnCompany.TextColor = System.Drawing.Color.White;
-            this.btnCompany.UseVisualStyleBackColor = false;
+            btnCompany.BackColor = Color.FromArgb(7, 57, 60);
+            btnCompany.BackgroundColor = Color.FromArgb(7, 57, 60);
+            btnCompany.BorderColor = Color.FromArgb(44, 102, 110);
+            btnCompany.BorderRadius = 10;
+            btnCompany.BorderSize = 2;
+            btnCompany.FlatAppearance.BorderSize = 0;
+            btnCompany.FlatStyle = FlatStyle.Flat;
+            btnCompany.Font = new Font("Tahoma", 20F, FontStyle.Regular, GraphicsUnit.Point);
+            btnCompany.ForeColor = Color.White;
+            btnCompany.Location = new Point(317, 26);
+            btnCompany.Name = "btnCompany";
+            btnCompany.Size = new Size(189, 74);
+            btnCompany.TabIndex = 18;
+            btnCompany.Text = "Company";
+            btnCompany.TextColor = Color.White;
+            btnCompany.UseVisualStyleBackColor = false;
             // 
             // btnHome
             // 
-            this.btnHome.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(57)))), ((int)(((byte)(60)))));
-            this.btnHome.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(57)))), ((int)(((byte)(60)))));
-            this.btnHome.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(102)))), ((int)(((byte)(110)))));
-            this.btnHome.BorderRadius = 10;
-            this.btnHome.BorderSize = 2;
-            this.btnHome.FlatAppearance.BorderSize = 0;
-            this.btnHome.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnHome.Font = new System.Drawing.Font("Tahoma", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnHome.ForeColor = System.Drawing.Color.White;
-            this.btnHome.Location = new System.Drawing.Point(20, 26);
-            this.btnHome.Name = "btnHome";
-            this.btnHome.Size = new System.Drawing.Size(189, 74);
-            this.btnHome.TabIndex = 17;
-            this.btnHome.Text = "Home ";
-            this.btnHome.TextColor = System.Drawing.Color.White;
-            this.btnHome.UseVisualStyleBackColor = false;
+            btnHome.BackColor = Color.FromArgb(7, 57, 60);
+            btnHome.BackgroundColor = Color.FromArgb(7, 57, 60);
+            btnHome.BorderColor = Color.FromArgb(44, 102, 110);
+            btnHome.BorderRadius = 10;
+            btnHome.BorderSize = 2;
+            btnHome.FlatAppearance.BorderSize = 0;
+            btnHome.FlatStyle = FlatStyle.Flat;
+            btnHome.Font = new Font("Tahoma", 20F, FontStyle.Regular, GraphicsUnit.Point);
+            btnHome.ForeColor = Color.White;
+            btnHome.Location = new Point(20, 26);
+            btnHome.Name = "btnHome";
+            btnHome.Size = new Size(189, 74);
+            btnHome.TabIndex = 17;
+            btnHome.Text = "Home ";
+            btnHome.TextColor = Color.White;
+            btnHome.UseVisualStyleBackColor = false;
             // 
             // panelSearch
             // 
-            this.panelSearch.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.panelSearch.Controls.Add(this.labelSearch);
-            this.panelSearch.Controls.Add(this.textBoxSearch);
-            this.panelSearch.Location = new System.Drawing.Point(12, 132);
-            this.panelSearch.Name = "panelSearch";
-            this.panelSearch.Size = new System.Drawing.Size(1505, 667);
-            this.panelSearch.TabIndex = 17;
+            panelSearch.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            panelSearch.Controls.Add(labelSearch);
+            panelSearch.Controls.Add(textBoxSearch);
+            panelSearch.Location = new Point(12, 132);
+            panelSearch.Name = "panelSearch";
+            panelSearch.Size = new Size(1505, 667);
+            panelSearch.TabIndex = 17;
             // 
             // labelSearch
             // 
-            this.labelSearch.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.labelSearch.AutoSize = true;
-            this.labelSearch.Font = new System.Drawing.Font("Tahoma", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labelSearch.ForeColor = System.Drawing.Color.White;
-            this.labelSearch.Location = new System.Drawing.Point(486, 24);
-            this.labelSearch.Name = "labelSearch";
-            this.labelSearch.Size = new System.Drawing.Size(95, 33);
-            this.labelSearch.TabIndex = 1;
-            this.labelSearch.Text = "Search";
+            labelSearch.Anchor = AnchorStyles.Top;
+            labelSearch.AutoSize = true;
+            labelSearch.Font = new Font("Tahoma", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
+            labelSearch.ForeColor = Color.White;
+            labelSearch.Location = new Point(486, 24);
+            labelSearch.Name = "labelSearch";
+            labelSearch.Size = new Size(95, 33);
+            labelSearch.TabIndex = 1;
+            labelSearch.Text = "Search";
             // 
             // textBoxSearch
             // 
-            this.textBoxSearch.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.textBoxSearch.Font = new System.Drawing.Font("Tahoma", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBoxSearch.Location = new System.Drawing.Point(605, 17);
-            this.textBoxSearch.Name = "textBoxSearch";
-            this.textBoxSearch.Size = new System.Drawing.Size(379, 40);
-            this.textBoxSearch.TabIndex = 0;
+            textBoxSearch.Anchor = AnchorStyles.Top;
+            textBoxSearch.Font = new Font("Tahoma", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
+            textBoxSearch.Location = new Point(605, 17);
+            textBoxSearch.Name = "textBoxSearch";
+            textBoxSearch.Size = new Size(379, 40);
+            textBoxSearch.TabIndex = 0;
             // 
             // Home
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(9)))), ((int)(((byte)(12)))));
-            this.ClientSize = new System.Drawing.Size(1529, 811);
-            this.Controls.Add(this.panelSearch);
-            this.Controls.Add(this.panelTop);
-            this.MaximizeBox = false;
-            this.MinimizeBox = false;
-            this.Name = "Home";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Anoora Atooz";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            this.panelTop.ResumeLayout(false);
-            this.panelSearch.ResumeLayout(false);
-            this.panelSearch.PerformLayout();
-            this.ResumeLayout(false);
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            AutoSizeMode = AutoSizeMode.GrowAndShrink;
+            BackColor = Color.FromArgb(10, 9, 12);
+            ClientSize = new Size(1529, 811);
+            Controls.Add(panelSearch);
+            Controls.Add(panelTop);
+            FormBorderStyle = FormBorderStyle.SizableToolWindow;
+            MaximizeBox = false;
+            Name = "Home";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Anoora Atooz";
+            WindowState = FormWindowState.Maximized;
+            panelTop.ResumeLayout(false);
+            panelSearch.ResumeLayout(false);
+            panelSearch.PerformLayout();
+            ResumeLayout(false);
         }
 
         #endregion
