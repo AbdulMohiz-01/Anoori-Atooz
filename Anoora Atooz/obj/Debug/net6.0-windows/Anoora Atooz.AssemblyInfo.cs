@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Anoora Atooz")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+48cd5e84f3224d7c73af7b60249fce8f4cacaff3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f7603d3142c09dd590917da5d3e7eeca291d024a")]
 [assembly: System.Reflection.AssemblyProductAttribute("Anoora Atooz")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Anoora Atooz")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
