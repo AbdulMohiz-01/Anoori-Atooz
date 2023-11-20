@@ -75,6 +75,7 @@
             btnInvoice.Text = "Slip";
             btnInvoice.TextColor = Color.White;
             btnInvoice.UseVisualStyleBackColor = false;
+            btnInvoice.Click += btnInvoice_Click;
             // 
             // btnHistory
             // 
@@ -94,6 +95,7 @@
             btnHistory.Text = "Hisab Kitab";
             btnHistory.TextColor = Color.White;
             btnHistory.UseVisualStyleBackColor = false;
+            btnHistory.Click += btnHistory_Click;
             // 
             // btnProduct
             // 
@@ -113,6 +115,7 @@
             btnProduct.Text = "Samaan";
             btnProduct.TextColor = Color.White;
             btnProduct.UseVisualStyleBackColor = false;
+            btnProduct.Click += btnProduct_Click;
             // 
             // btnCompany
             // 

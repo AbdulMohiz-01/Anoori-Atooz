@@ -12,6 +12,7 @@ namespace Anoora_Atooz.Views
 {
     public partial class Invoice : Form
     {
+        private Home _home;
         public Invoice()
         {
             InitializeComponent();
@@ -25,6 +26,13 @@ namespace Anoora_Atooz.Views
         private void labelDate_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnBack_Click(object sender, EventArgs e)
+        {
+             _home = new Home();
+            _home.Show();
+            this.Hide();
         }
     }
 }

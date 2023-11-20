@@ -112,6 +112,7 @@
             btnBack.Text = "Back";
             btnBack.TextColor = Color.White;
             btnBack.UseVisualStyleBackColor = false;
+            btnBack.Click += btnBack_Click;
             // 
             // panelMiddle
             // 

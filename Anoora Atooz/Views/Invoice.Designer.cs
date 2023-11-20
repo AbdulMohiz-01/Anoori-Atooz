@@ -29,6 +29,14 @@
         private void InitializeComponent()
         {
             panelMiddle = new Panel();
+            labelProducts = new Label();
+            textBoxProducts = new TextBox();
+            comboBoxInvoiceType = new ComboBox();
+            labelInvoiceType = new Label();
+            labelQuantiy = new Label();
+            textBoxQuantiy = new TextBox();
+            labelDueDate = new Label();
+            dateTimePickerDueDate = new DateTimePicker();
             labelCreatedDate = new Label();
             dateTimePickerCreated = new DateTimePicker();
             labelNetRate = new Label();
@@ -42,17 +50,9 @@
             panelheading = new Panel();
             labelHeading = new Label();
             panelBottom = new Panel();
+            bntSubmit = new CustomControls.RJControls.RJButton();
             btnBack = new CustomControls.RJControls.RJButton();
             btnSubmit = new CustomControls.RJControls.RJButton();
-            bntSubmit = new CustomControls.RJControls.RJButton();
-            labelDueDate = new Label();
-            dateTimePickerDueDate = new DateTimePicker();
-            labelQuantiy = new Label();
-            textBoxQuantiy = new TextBox();
-            labelInvoiceType = new Label();
-            comboBoxInvoiceType = new ComboBox();
-            labelProducts = new Label();
-            textBoxProducts = new TextBox();
             panelMiddle.SuspendLayout();
             panelheading.SuspendLayout();
             panelBottom.SuspendLayout();
@@ -84,6 +84,86 @@
             panelMiddle.Size = new Size(1529, 549);
             panelMiddle.TabIndex = 25;
             panelMiddle.Paint += panelMiddle_Paint;
+            // 
+            // labelProducts
+            // 
+            labelProducts.AutoSize = true;
+            labelProducts.Font = new Font("Tahoma", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
+            labelProducts.ForeColor = Color.White;
+            labelProducts.Location = new Point(35, 215);
+            labelProducts.Name = "labelProducts";
+            labelProducts.Size = new Size(118, 33);
+            labelProducts.TabIndex = 37;
+            labelProducts.Text = "Products";
+            // 
+            // textBoxProducts
+            // 
+            textBoxProducts.Font = new Font("Tahoma", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
+            textBoxProducts.Location = new Point(246, 208);
+            textBoxProducts.Name = "textBoxProducts";
+            textBoxProducts.Size = new Size(441, 40);
+            textBoxProducts.TabIndex = 36;
+            // 
+            // comboBoxInvoiceType
+            // 
+            comboBoxInvoiceType.Font = new Font("Tahoma", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
+            comboBoxInvoiceType.FormattingEnabled = true;
+            comboBoxInvoiceType.Items.AddRange(new object[] { "Whole Sale ", "Perchune" });
+            comboBoxInvoiceType.Location = new Point(246, 135);
+            comboBoxInvoiceType.Name = "comboBoxInvoiceType";
+            comboBoxInvoiceType.Size = new Size(441, 41);
+            comboBoxInvoiceType.TabIndex = 35;
+            // 
+            // labelInvoiceType
+            // 
+            labelInvoiceType.AutoSize = true;
+            labelInvoiceType.Font = new Font("Tahoma", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
+            labelInvoiceType.ForeColor = Color.White;
+            labelInvoiceType.Location = new Point(35, 137);
+            labelInvoiceType.Name = "labelInvoiceType";
+            labelInvoiceType.Size = new Size(166, 33);
+            labelInvoiceType.TabIndex = 34;
+            labelInvoiceType.Text = "Invoice Type";
+            // 
+            // labelQuantiy
+            // 
+            labelQuantiy.AutoSize = true;
+            labelQuantiy.Font = new Font("Tahoma", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
+            labelQuantiy.ForeColor = Color.White;
+            labelQuantiy.Location = new Point(35, 70);
+            labelQuantiy.Name = "labelQuantiy";
+            labelQuantiy.Size = new Size(106, 33);
+            labelQuantiy.TabIndex = 33;
+            labelQuantiy.Text = "Quantiy";
+            // 
+            // textBoxQuantiy
+            // 
+            textBoxQuantiy.Font = new Font("Tahoma", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
+            textBoxQuantiy.Location = new Point(246, 63);
+            textBoxQuantiy.Name = "textBoxQuantiy";
+            textBoxQuantiy.Size = new Size(441, 40);
+            textBoxQuantiy.TabIndex = 32;
+            // 
+            // labelDueDate
+            // 
+            labelDueDate.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            labelDueDate.AutoSize = true;
+            labelDueDate.Font = new Font("Tahoma", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
+            labelDueDate.ForeColor = Color.White;
+            labelDueDate.Location = new Point(801, 281);
+            labelDueDate.Name = "labelDueDate";
+            labelDueDate.Size = new Size(125, 33);
+            labelDueDate.TabIndex = 31;
+            labelDueDate.Text = "Due Date";
+            // 
+            // dateTimePickerDueDate
+            // 
+            dateTimePickerDueDate.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            dateTimePickerDueDate.Font = new Font("Tahoma", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
+            dateTimePickerDueDate.Location = new Point(1051, 275);
+            dateTimePickerDueDate.Name = "dateTimePickerDueDate";
+            dateTimePickerDueDate.Size = new Size(441, 40);
+            dateTimePickerDueDate.TabIndex = 30;
             // 
             // labelCreatedDate
             // 
@@ -224,46 +304,6 @@
             panelBottom.Size = new Size(1529, 128);
             panelBottom.TabIndex = 26;
             // 
-            // btnBack
-            // 
-            btnBack.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
-            btnBack.BackColor = Color.FromArgb(7, 57, 60);
-            btnBack.BackgroundColor = Color.FromArgb(7, 57, 60);
-            btnBack.BorderColor = Color.FromArgb(44, 102, 110);
-            btnBack.BorderRadius = 10;
-            btnBack.BorderSize = 2;
-            btnBack.FlatAppearance.BorderSize = 0;
-            btnBack.FlatStyle = FlatStyle.Flat;
-            btnBack.Font = new Font("Tahoma", 20F, FontStyle.Regular, GraphicsUnit.Point);
-            btnBack.ForeColor = Color.White;
-            btnBack.Location = new Point(12, 26);
-            btnBack.Name = "btnBack";
-            btnBack.Size = new Size(189, 74);
-            btnBack.TabIndex = 21;
-            btnBack.Text = "Back";
-            btnBack.TextColor = Color.White;
-            btnBack.UseVisualStyleBackColor = false;
-            // 
-            // btnSubmit
-            // 
-            btnSubmit.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
-            btnSubmit.BackColor = Color.FromArgb(7, 57, 60);
-            btnSubmit.BackgroundColor = Color.FromArgb(7, 57, 60);
-            btnSubmit.BorderColor = Color.FromArgb(44, 102, 110);
-            btnSubmit.BorderRadius = 10;
-            btnSubmit.BorderSize = 2;
-            btnSubmit.FlatAppearance.BorderSize = 0;
-            btnSubmit.FlatStyle = FlatStyle.Flat;
-            btnSubmit.Font = new Font("Tahoma", 20F, FontStyle.Regular, GraphicsUnit.Point);
-            btnSubmit.ForeColor = Color.White;
-            btnSubmit.Location = new Point(2624, 53);
-            btnSubmit.Name = "btnSubmit";
-            btnSubmit.Size = new Size(189, 74);
-            btnSubmit.TabIndex = 20;
-            btnSubmit.Text = "Submit";
-            btnSubmit.TextColor = Color.White;
-            btnSubmit.UseVisualStyleBackColor = false;
-            // 
             // bntSubmit
             // 
             bntSubmit.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
@@ -284,85 +324,46 @@
             bntSubmit.TextColor = Color.White;
             bntSubmit.UseVisualStyleBackColor = false;
             // 
-            // labelDueDate
+            // btnBack
             // 
-            labelDueDate.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            labelDueDate.AutoSize = true;
-            labelDueDate.Font = new Font("Tahoma", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
-            labelDueDate.ForeColor = Color.White;
-            labelDueDate.Location = new Point(801, 281);
-            labelDueDate.Name = "labelDueDate";
-            labelDueDate.Size = new Size(125, 33);
-            labelDueDate.TabIndex = 31;
-            labelDueDate.Text = "Due Date";
+            btnBack.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
+            btnBack.BackColor = Color.FromArgb(7, 57, 60);
+            btnBack.BackgroundColor = Color.FromArgb(7, 57, 60);
+            btnBack.BorderColor = Color.FromArgb(44, 102, 110);
+            btnBack.BorderRadius = 10;
+            btnBack.BorderSize = 2;
+            btnBack.FlatAppearance.BorderSize = 0;
+            btnBack.FlatStyle = FlatStyle.Flat;
+            btnBack.Font = new Font("Tahoma", 20F, FontStyle.Regular, GraphicsUnit.Point);
+            btnBack.ForeColor = Color.White;
+            btnBack.Location = new Point(12, 26);
+            btnBack.Name = "btnBack";
+            btnBack.Size = new Size(189, 74);
+            btnBack.TabIndex = 21;
+            btnBack.Text = "Back";
+            btnBack.TextColor = Color.White;
+            btnBack.UseVisualStyleBackColor = false;
+            btnBack.Click += btnBack_Click;
             // 
-            // dateTimePickerDueDate
+            // btnSubmit
             // 
-            dateTimePickerDueDate.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            dateTimePickerDueDate.Font = new Font("Tahoma", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
-            dateTimePickerDueDate.Location = new Point(1051, 275);
-            dateTimePickerDueDate.Name = "dateTimePickerDueDate";
-            dateTimePickerDueDate.Size = new Size(441, 40);
-            dateTimePickerDueDate.TabIndex = 30;
-            // 
-            // labelQuantiy
-            // 
-            labelQuantiy.AutoSize = true;
-            labelQuantiy.Font = new Font("Tahoma", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
-            labelQuantiy.ForeColor = Color.White;
-            labelQuantiy.Location = new Point(35, 70);
-            labelQuantiy.Name = "labelQuantiy";
-            labelQuantiy.Size = new Size(106, 33);
-            labelQuantiy.TabIndex = 33;
-            labelQuantiy.Text = "Quantiy";
-            // 
-            // textBoxQuantiy
-            // 
-            textBoxQuantiy.Font = new Font("Tahoma", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
-            textBoxQuantiy.Location = new Point(246, 63);
-            textBoxQuantiy.Name = "textBoxQuantiy";
-            textBoxQuantiy.Size = new Size(441, 40);
-            textBoxQuantiy.TabIndex = 32;
-            // 
-            // labelInvoiceType
-            // 
-            labelInvoiceType.AutoSize = true;
-            labelInvoiceType.Font = new Font("Tahoma", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
-            labelInvoiceType.ForeColor = Color.White;
-            labelInvoiceType.Location = new Point(35, 137);
-            labelInvoiceType.Name = "labelInvoiceType";
-            labelInvoiceType.Size = new Size(166, 33);
-            labelInvoiceType.TabIndex = 34;
-            labelInvoiceType.Text = "Invoice Type";
-            // 
-            // comboBoxInvoiceType
-            // 
-            comboBoxInvoiceType.Font = new Font("Tahoma", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
-            comboBoxInvoiceType.FormattingEnabled = true;
-            comboBoxInvoiceType.Items.AddRange(new object[] { "Whole Sale ", "Perchune" });
-            comboBoxInvoiceType.Location = new Point(246, 135);
-            comboBoxInvoiceType.Name = "comboBoxInvoiceType";
-            comboBoxInvoiceType.Size = new Size(441, 41);
-            comboBoxInvoiceType.TabIndex = 35;
-            // 
-            // labelProducts
-            // 
-            labelProducts.AutoSize = true;
-            labelProducts.Font = new Font("Tahoma", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
-            labelProducts.ForeColor = Color.White;
-            labelProducts.Location = new Point(35, 215);
-            labelProducts.Name = "labelProducts";
-            labelProducts.Size = new Size(118, 33);
-            labelProducts.TabIndex = 37;
-            labelProducts.Text = "Products";
-            // 
-            // textBoxProducts
-            // 
-            textBoxProducts.Font = new Font("Tahoma", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
-            textBoxProducts.Location = new Point(246, 208);
-            textBoxProducts.Name = "textBoxProducts";
-            textBoxProducts.Size = new Size(441, 40);
-            textBoxProducts.TabIndex = 36;
+            btnSubmit.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
+            btnSubmit.BackColor = Color.FromArgb(7, 57, 60);
+            btnSubmit.BackgroundColor = Color.FromArgb(7, 57, 60);
+            btnSubmit.BorderColor = Color.FromArgb(44, 102, 110);
+            btnSubmit.BorderRadius = 10;
+            btnSubmit.BorderSize = 2;
+            btnSubmit.FlatAppearance.BorderSize = 0;
+            btnSubmit.FlatStyle = FlatStyle.Flat;
+            btnSubmit.Font = new Font("Tahoma", 20F, FontStyle.Regular, GraphicsUnit.Point);
+            btnSubmit.ForeColor = Color.White;
+            btnSubmit.Location = new Point(2624, 53);
+            btnSubmit.Name = "btnSubmit";
+            btnSubmit.Size = new Size(189, 74);
+            btnSubmit.TabIndex = 20;
+            btnSubmit.Text = "Submit";
+            btnSubmit.TextColor = Color.White;
+            btnSubmit.UseVisualStyleBackColor = false;
             // 
             // Invoice
             // 
