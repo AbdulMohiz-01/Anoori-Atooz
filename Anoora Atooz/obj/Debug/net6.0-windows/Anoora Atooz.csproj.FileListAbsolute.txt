@@ -64,3 +64,4 @@ C:\Users\mehmood\source\repos\Anoori-Atooz\Anoora Atooz\obj\Debug\net6.0-windows
 C:\Users\mehmood\source\repos\Anoori-Atooz\Anoora Atooz\obj\Debug\net6.0-windows\Anoora Atooz.genruntimeconfig.cache
 C:\Users\mehmood\source\repos\Anoori-Atooz\Anoora Atooz\obj\Debug\net6.0-windows\ref\Anoora Atooz.dll
 C:\Work\Anoora Atooz\obj\Debug\net6.0-windows\Anoora_Atooz.Home.resources
+C:\Users\mehmood\source\repos\Anoori-Atooz\Anoora Atooz\obj\Debug\net6.0-windows\Anoora_Atooz.Views.Product.resources

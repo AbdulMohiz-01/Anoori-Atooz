@@ -1,3 +1,8 @@
+
+
+
+using Anoora_Atooz.Views;
+
 namespace Anoora_Atooz
 {
     public partial class Home : Form
@@ -7,29 +12,20 @@ namespace Anoora_Atooz
             InitializeComponent();
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        private void btnProduct_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void button16_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void buttonProdcuts_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnHome_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Home_Load(object sender, EventArgs e)
-        {
-
+            if (this.WindowState == FormWindowState.Maximized)
+            {
+                // code to execute when form is maximized
+                this.Hide();
+                Product productForm = new Product();
+                productForm.Show();
+            }
+            else if (this.WindowState == FormWindowState.Normal)
+            {
+                // code to execute when form is in normal state
+                this.Show();
+            }
         }
     }
 }
