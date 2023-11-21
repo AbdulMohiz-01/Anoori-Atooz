@@ -36,7 +36,6 @@ C:\Work\Anoora Atooz\bin\Debug\net6.0-windows\Anoora Atooz.deps.json
 C:\Work\Anoora Atooz\bin\Debug\net6.0-windows\Anoora Atooz.runtimeconfig.json
 C:\Work\Anoora Atooz\bin\Debug\net6.0-windows\Anoora Atooz.dll
 C:\Work\Anoora Atooz\bin\Debug\net6.0-windows\Anoora Atooz.pdb
-C:\Work\Anoora Atooz\obj\Debug\net6.0-windows\Anoora Atooz.csproj.AssemblyReference.cache
 C:\Work\Anoora Atooz\obj\Debug\net6.0-windows\Anoora Atooz.csproj.GenerateResource.cache
 C:\Work\Anoora Atooz\obj\Debug\net6.0-windows\Anoora Atooz.GeneratedMSBuildEditorConfig.editorconfig
 C:\Work\Anoora Atooz\obj\Debug\net6.0-windows\Anoora Atooz.AssemblyInfoInputs.cache
@@ -64,4 +63,11 @@ C:\Users\mehmood\source\repos\Anoori-Atooz\Anoora Atooz\obj\Debug\net6.0-windows
 C:\Users\mehmood\source\repos\Anoori-Atooz\Anoora Atooz\obj\Debug\net6.0-windows\Anoora Atooz.genruntimeconfig.cache
 C:\Users\mehmood\source\repos\Anoori-Atooz\Anoora Atooz\obj\Debug\net6.0-windows\ref\Anoora Atooz.dll
 C:\Work\Anoora Atooz\obj\Debug\net6.0-windows\Anoora_Atooz.Home.resources
+<<<<<<< HEAD
 C:\Users\mehmood\source\repos\Anoori-Atooz\Anoora Atooz\obj\Debug\net6.0-windows\Anoora_Atooz.Views.Product.resources
+=======
+C:\Work\Anoora Atooz\obj\Debug\net6.0-windows\Anoora_Atooz.Views.Product.resources
+C:\Work\Anoora Atooz\obj\Debug\net6.0-windows\Anoora Atooz.sourcelink.json
+C:\Work\Anoora Atooz\obj\Debug\net6.0-windows\Anoora_Atooz.Views.Invoice.resources
+>>>>>>> 9975d575a0b9feb3832fde747bec9ae227bb2d09
+C:\Users\mehmood\source\repos\Anoori-Atooz\Anoora Atooz\obj\Debug\net6.0-windows\Anoora_Atooz.Views.Invoice.resources

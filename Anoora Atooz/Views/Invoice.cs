@@ -10,31 +10,27 @@ using System.Windows.Forms;
 
 namespace Anoora_Atooz.Views
 {
-    public partial class Product : Form
+    public partial class Invoice : Form
     {
         private Home _home;
-        public Product()
+        public Invoice()
         {
             InitializeComponent();
         }
 
-        private void label4_Click(object sender, EventArgs e)
+        private void panelMiddle_Paint(object sender, PaintEventArgs e)
         {
 
         }
 
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-        }
-
-        private void btnCompany_Click(object sender, EventArgs e)
+        private void labelDate_Click(object sender, EventArgs e)
         {
 
         }
 
         private void btnBack_Click(object sender, EventArgs e)
         {
-            _home = new Home();
+             _home = new Home();
             _home.Show();
             this.Hide();
         }

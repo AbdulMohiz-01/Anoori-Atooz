@@ -75,6 +75,7 @@
             btnInvoice.Text = "Slip";
             btnInvoice.TextColor = Color.White;
             btnInvoice.UseVisualStyleBackColor = false;
+            btnInvoice.Click += btnInvoice_Click;
             // 
             // btnHistory
             // 
@@ -94,6 +95,7 @@
             btnHistory.Text = "Hisab Kitab";
             btnHistory.TextColor = Color.White;
             btnHistory.UseVisualStyleBackColor = false;
+            btnHistory.Click += btnHistory_Click;
             // 
             // btnProduct
             // 
@@ -193,8 +195,8 @@
             ClientSize = new Size(1529, 811);
             Controls.Add(panelSearch);
             Controls.Add(panelTop);
+            FormBorderStyle = FormBorderStyle.SizableToolWindow;
             MaximizeBox = false;
-            MinimizeBox = false;
             Name = "Home";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Anoora Atooz";

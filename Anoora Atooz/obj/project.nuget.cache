@@ -4,5 +4,12 @@
   "success": true,
   "projectFilePath": "C:\\Users\\mehmood\\source\\repos\\Anoori-Atooz\\Anoora Atooz\\Anoora Atooz.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\mehmood\\source\\repos\\Anoori-Atooz\\Anoora Atooz\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
